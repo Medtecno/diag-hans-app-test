@@ -1,5 +1,5 @@
+import 'package:diag_test/add_image.dart';
 import 'package:flutter/material.dart';
-import 'home.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Fruit Recognition',
-      home: Home(),
+      home: AddImage(),
       debugShowCheckedModeBanner: false,
     );
   }
